@@ -1,3 +1,3 @@
-module chess_engine
+module github.com/progFilthi/chess_engine
 
-go 1.26
+go 1.26.4
