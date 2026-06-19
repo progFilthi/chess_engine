@@ -26,3 +26,10 @@ type Piece struct {
 type Board struct {
 	Pieces [64]Piece
 }
+
+func NewBoard() Board {
+
+	b := Board{}
+
+	return b
+}

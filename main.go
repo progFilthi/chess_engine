@@ -1,8 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"os"
+
+	"github.com/progFilthi/chess_engine/board"
+)
 
 func main() {
 
-	fmt.Println("Chess Engine running ...")
+	b := board.NewBoard()
+
+	b.Print(os.Stdout)
 }
